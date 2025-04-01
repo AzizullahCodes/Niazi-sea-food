@@ -48,7 +48,8 @@ h1 {color:whitesmoke;
 padding-top:30px;}
 /* p1 */
 .p1 {color:white;
-padding:20px 20px;}
+padding:20px 20px;
+width:100%;}
 /* --pic */
 .pic {margin-left:70px;
 }
@@ -96,3 +97,16 @@ top:-12px;}
 .share {padding-left: 40px;
 padding-bottom: 40px;}
 .last {color:white;}
+/* ------media-query--- */
+@media (max-width:615px){
+    .logo {position:relative;
+    left:80px;
+width:200px;
+height: 200px;
+border-radius: 100px;}
+h1 {position: relative;
+    top:200px;
+}
+.p1{display: flex;
+flex-wrap: wrap;}
+}
